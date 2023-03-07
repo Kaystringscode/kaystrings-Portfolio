@@ -166,7 +166,7 @@ header nav ul li a:hover {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   gap: 10px;
 
 }
@@ -191,22 +191,27 @@ header nav ul li a:hover {
 }
 
 .code-refactor {
+  grid-row: span 2;
   background-image: url("../images/02-portfolio-1.jpg");
-  background-position: 50% 15%;
+  background-position: 10% 90%;
 }
 
 .password-generator{
+  grid-row: span 2;
   background-image: url("../images/02-portfolio-2.jpg");
-  background-position: 60% 50%;
+  background-position: 10% 90%;
 }
 
 .code-quiz {
+  grid-row: span 2;
   background-image: url("../images/02-portfolio-3.jpg");
 }
 
 .kaystrings-page {
-  
+  grid-row: span 2;
   background-image: url("../images/02-portfolio-4.jpg");
+  
+  
 }
 
 .work-Boxes {
